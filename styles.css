@@ -248,6 +248,7 @@ nav {
         grid-column: unset;
         grid-row: 2 / 3;
         grid-template-rows: 1fr;
+        gap: 15px;
     }
 
     main {
@@ -258,7 +259,8 @@ nav {
         grid-row: 1 / 2;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 25px;
     }
 
     .links a {
@@ -267,6 +269,11 @@ nav {
 
     .links {
         flex-direction: row;
+        gap: 5px;
+    }
+
+    .links svg {
+        width: 25px;
     }
 
     #search-bar, #profile-info {
@@ -283,6 +290,14 @@ nav {
 
     #trending {
         width: fit-content;
+    }
+
+    #cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        
     }
 
   }
